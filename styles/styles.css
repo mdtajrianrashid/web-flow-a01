@@ -188,3 +188,273 @@
     color: #000000;
     font-weight: normal;
 }
+
+/* User Review Section */
+
+.user-review{
+    background-color: #FFFFFF;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1140px;
+    height: 342px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 137px;
+}
+
+.user-review-heading{
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.reviewer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reviewer-content{
+    width: 366.67px;
+    height: 243px;
+    background-color: #f2eded80;
+    border: #f2eded;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    border-color: #f2eded;
+}
+
+.five-star{
+    width: 116px;
+    height: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.review-text{
+    margin-left: 24px;
+}
+
+.review-text h2{
+    margin-bottom: 4px;
+    font-family: Arial;
+}
+
+.review-text h3{
+    margin-top: 4px;
+    font-weight: normal;
+}
+
+.avatar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    align-items: center;
+}
+
+.avatar img{
+    border-radius: 100px;
+}
+
+.reviewer-details{
+    margin-left: 12px;
+}
+
+/* Webflow-Big Section */
+
+.webflow-big{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 92.23px;
+    background-color:#f2eded80;
+    height: 697.77px;
+    width: 1140px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.webflow-big-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.webflow-big-text h1{
+    font-size: 50px;
+    margin-top: 71px;
+    margin-bottom: 20px;
+}
+
+.webflow-big-text h3{
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.webflow-big-text button{
+    width: 195px;
+    height: 48px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+.wc-big{
+    width: 840px;
+    height: 364.77px;
+    border-radius: 50px;
+}
+
+/* Get in Touch Form Section */
+
+.get-in-touch{
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1140px;
+    height: 632px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 14px;
+}
+
+.left h1 {
+  font-size: 97px;
+  font-weight: bolder;
+  line-height: 80px;
+  color: #000000;
+  margin-left: 10px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+.right form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-right: 10px;
+}
+
+form label {
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+}
+
+form input,
+form textarea {
+  margin-bottom: 20px;
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #D6DDED;
+  background-color: #FFFFFF;
+}
+
+form button {
+  background-color: #4E47FF;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 18px;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Footer Section */
+
+.logo-section{
+    background-color: #f2eded80;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 428px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-section-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-section-text h1{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: 104px;
+    margin-bottom: 8px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.logo-section-text h3{
+    font-weight: normal;
+    color: #8987A1;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.logo-section-button{
+    margin-bottom: 103px;
+}
+
+.home-button{
+    width: 45px;
+    height: 24px;
+    background-color: #f2eded80;
+    font-weight: normal;
+    font-size: large;
+    color: #8987A1;
+    cursor: pointer;
+    border: transparent;
+    margin-right: 48px;
+}
+
+.about-button{
+    width: 46px;
+    height: 24px;
+    background-color: #f2eded80;
+    font-weight: normal;
+    font-size: large;
+    color: #8987A1;
+    cursor: pointer;
+    border: transparent;
+    margin-right: 48px;
+}
+
+.how-it-works-button{
+    width: 106px;
+    height: 24px;
+    background-color: #f2eded80;
+    font-weight: normal;
+    font-size: large;
+    color: #8987A1;
+    cursor: pointer;
+    border: transparent;
+    margin-right: 48px;
+}
+
+.services-button{
+    width: 66px;
+    height: 24px;
+    background-color: #f2eded80;
+    font-weight: normal;
+    font-size: large;
+    color: #8987A1;
+    cursor: pointer;
+    border: transparent;
+}
