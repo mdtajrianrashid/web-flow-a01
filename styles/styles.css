@@ -140,3 +140,51 @@
 .webflow-mini img{
     border-radius: 48px;
 }
+
+/* User-Data Section */
+
+.user-data{
+    background-image: url(/images/user-data.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1140px;
+    height: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 137px;
+}
+
+.user-data-heading{
+    font-size: 25px;
+    margin-bottom: 0;
+    font-weight: bolder;
+}
+
+.user-data-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.rating{
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-right: 75px;
+    margin-left: 75px;
+    text-align: center;
+}
+
+.rating h1{
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: 80px;
+}
+
+.rating h3{
+    color: #000000;
+    font-weight: normal;
+}
