@@ -36,7 +36,7 @@
 /* Header Section */
 
 .banner{
-    background-image: url(/images/Hero-bg.png);
+    background-image: url(../images/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -144,7 +144,7 @@
 /* User-Data Section */
 
 .user-data{
-    background-image: url(/images/user-data.png);
+    background-image: url(../images/user-data.png);
     background-repeat: no-repeat;
     background-position: center;
     width: 1140px;
