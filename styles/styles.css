@@ -71,6 +71,7 @@
 }
 
 .banner-heading{
+    color: #252432;
     font-weight: bolder;
     display: flex;
     text-align: center;
@@ -91,4 +92,51 @@
     border-radius: 15px;
     border-color: transparent;
     margin-top: 2%;
+}
+
+/* Webflow-mini Section */
+
+.webflow-mini{
+    width: 1140px;
+    height: 328px;
+    background-color: #FFFFFF;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.webflow-mini-text{
+    color: #252432;
+    line-height: 50px;
+}
+
+.webflow-mini-text button{
+    font-weight: bold;
+    width: 229px;
+    height: 48px;
+    border-radius: 15px;
+    border: transparent;
+    margin-top: 23px;
+}
+
+.webflow-mini-text h2{
+    font-weight: bolder;
+    font-size: 42px
+}
+
+.webflow-mini-text h4{
+    font-size: 24px;
+    line-height: normal;
+    margin-top: 23px;
+    font-weight: normal;
+}
+
+.webflow-mini img{
+    border-radius: 48px;
 }
